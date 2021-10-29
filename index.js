@@ -13,4 +13,4 @@ const allObs = Rx.zip([obs, obs2, obs3]);
 
 // allObs.subscribe((d) => console.log('array', d));
 
-console.log('Valid Email', validator.isEmail('bikash@gmail.com'));
+console.log('Valid Email', validator.isEmail('bikash@gmail'));
