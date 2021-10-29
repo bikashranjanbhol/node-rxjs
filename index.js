@@ -9,4 +9,4 @@ const allObs = Rx.zip([obs, obs2, obs3]);
 
 // obs.subscribe((d) => console.log(d));
 
-allObs.subscribe((d) => console.log('zip', d));
+allObs.subscribe((d) => console.log('array', d));
